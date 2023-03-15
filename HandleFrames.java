@@ -33,7 +33,7 @@ public class HandleFrames {
 		//3 rd iframe
 		driver.switchTo().frame("classFrame");
 		driver.findElement(By.xpath("//div[@class='topNav']//a[normalize-space()='Help']")).click();//Help
-		
+		system.out.println("modified");
 
 	}
 	
